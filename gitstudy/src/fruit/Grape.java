@@ -9,6 +9,13 @@ public class Grape {
 	}
 	public int getQty() {
 		return qty;
+		
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public void setQty(int qty) {
+		this.qty = qty;
 	}
 
 }
